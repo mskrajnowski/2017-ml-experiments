@@ -26,3 +26,25 @@ pip install -r requirements.txt
 ```sh
 kg config -g -u username -p password
 ```
+
+## `~/.keras/keras.json`
+
+```json
+{
+    "image_data_format": "channels_last",
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "backend": "theano"
+}
+```
+
+## `~/theanorc`
+
+```ini
+[global]
+device = cpu
+floatX = float32
+
+[blas]
+ldflags = -L/usr/local/lib -lopenblas
+```
