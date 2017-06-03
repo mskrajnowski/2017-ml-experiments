@@ -5,3 +5,4 @@ kaggle-cli
 pygraphviz
 h5py
 pandas
+matplotlib
