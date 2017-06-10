@@ -31,7 +31,7 @@ kg config -g -u username -p password
 
 ```json
 {
-    "image_data_format": "channels_last",
+    "image_data_format": "channels_first",
     "epsilon": 1e-07,
     "floatx": "float32",
     "backend": "theano"
